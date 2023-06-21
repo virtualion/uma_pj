@@ -1,6 +1,10 @@
 /* Responsive Full Background Image Using CSS
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
+
+	
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 body {
   /* Location of the image */
   background-image: url(images/background-photo.jpg);
@@ -24,6 +28,15 @@ body {
   /* SHORTHAND CSS NOTATION
    * background: url(background-photo.jpg) center center cover no-repeat fixed;
    */
+
+}
+
+.h1{
+   font-family: Courier;
+}
+
+.sub-titler{
+   font-family: 'Noto Sans JP', Courier;
 }
 
 /* For mobile devices */
