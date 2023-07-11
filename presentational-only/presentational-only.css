@@ -17,7 +17,7 @@ html, body, h1, p, a, div, section {
 /* Basic */
 body { 
   font: 18px/23px "Cantarell", sans-serif;
-  color: #ffffff;
+  
 }
 
 h1 {
@@ -190,4 +190,9 @@ blockquote cite {
 
 keitai{
     font-size: 12px;
+}
+
+uma{
+    color: #DDDDDD;
+    
 }
