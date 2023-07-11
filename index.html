@@ -24,6 +24,13 @@
   <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="presentational-only/presentational-only.js"></script>
+  <script>
+$(window).on('load', function() {
+    if  (navigator.userAgent.match(/iPhone|iPad|Android.+Mobile/)) {
+        $('.kirikae').attr('href','miira_mob/index.html')
+    }
+});
+  </script>
 </head>
 <body>
   <nav class="navbar" id="top">
@@ -35,7 +42,7 @@
     <section class="content">
       <h1><p class="titler">VIRTUAL UMA PROJECT</p></h1>
       <p class="sub-title sub-titler"><big>フィギュア造形</big>と<big>現代科学</big>でよみがえる<big>日本のUMA</big><br><small>UMA: Unidentified Mysterious Animal 謎の未確認動物</small></p>
-      <p><a class="button" href="https://virtualion.co.jp">VIRTUAL MUSEUM</a></p>
+      <p><a class="button kirikae" href="miira_kai/index.html">VIRTUAL MUSEUM</a></p>
            <!--  <p><a class="button" href="#top">SUPPORT US</a></p>  -->
 
     </section>
